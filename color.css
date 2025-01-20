@@ -1,0 +1,15 @@
+:root{
+    --primary-dark: #222222; /* Mine Shaft */
+    --primary-light: #e9e8e8; /* Mercury */
+
+    --secondary-dark-gray: #494745; /* Masala */
+    --secondary-muted-gray: #5b5c5c; /* Corduroy */
+    --secondary-gray: #939494; /* Oslo Gray */
+
+    --accent-dark: #3b4444; /* Cape Cod */
+    --accent-neutral: #53535c; /* Scarpa Flow */
+    --accent-muted: #747270; /* Tapa */
+    --accent-warm: #a66e25; /* Desert */
+    --accent-bright: #db2e2e; /* Desert */
+
+}

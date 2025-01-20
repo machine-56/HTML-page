@@ -1,0 +1,116 @@
+@import url(./color.css);
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+body a{
+    color: var(--secondary-gray);
+    text-decoration: none;
+}
+
+
+
+.socials{
+    background-color:var(--accent-dark);
+}
+.socials .container{
+    color: var(--secondary-gray);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.socials .container .icons .fa-brands{
+    padding: 5px;
+    color: var(--secondary-gray);
+}
+
+.navbar-nav .nav-link{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: var(--secondary-gray);
+}
+
+.navbar-nav .nav-link:hover{
+    color: var(--accent-bright);
+}
+
+.navbar-nav .nav-link.active{
+    font-weight: 500;
+    color: var(--accent-dark) !important;
+    border-bottom: 1px solid var(--accent-dark);
+}
+
+
+/* glass background */
+
+.glass-background{
+    /* background: #3b4444ab; */
+    background: #000000ab;
+    backdrop-filter: blur(2px);
+    border: 1px solid #0000006c;
+    border-radius: 5px;
+}
+
+
+
+/* btn */
+
+.container .btn-outline-custom{
+    color: var(--primary-light);
+    border: 2px solid var(--primary-light);
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.15s ease-in-out;
+}
+
+.container .btn-outline-custom:hover {
+  color: var(--primary-dark); 
+  background-color: var(--primary-light);
+  border-color: var(--primary-light);
+  text-decoration: none;
+}
+
+.container .btn-outline-darhcustom{
+    color: var(--primary-dark);
+    border: 1px solid var(--primary-dark);
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.15s ease-in-out;
+  }
+  
+.container .btn-outline-darhcustom:hover {
+  color: var(--primary-light); 
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  text-decoration: none;
+}
+
+
+
+/* footer */
+
+.colour-bg{
+    background-color: var(--primary-dark) !important;
+    color: var(--primary-light) !important;
+}
+
+.to-align{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#fox-logo{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}

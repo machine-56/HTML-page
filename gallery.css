@@ -1,0 +1,19 @@
+@import url(./color.css);
+@import url(./style.css);
+
+
+.col .gallery-img{
+    width: 20em;
+    height: 19em;
+    margin: 10px 5px;
+    /* padding: 1em; */
+    object-fit: cover;
+    border: 5px;
+    box-shadow: 0 4px 20px #0000004d;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.col .gallery-img:hover{
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px #0000005d;
+}

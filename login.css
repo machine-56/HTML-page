@@ -1,0 +1,53 @@
+@import url(./color.css);
+@import url(./style.css);
+
+.glass-background{
+    width: 5em;
+    padding: 2em 3em;
+    background: #3b4444ab;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffffad;
+    border-radius: 5px;
+}
+
+.main-form{
+    display: flex;
+    justify-content: center;
+}
+
+.w-22{
+    width: 22em;
+}
+
+
+.main-div{
+    color: var(--primary-light);
+}
+
+.form-check-input:checked {
+    background-color:var(--accent-dark) !important;
+    border-color: var(--primary-light) !important;
+}
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+.logbtn{
+    width: 100%;
+}
+.btn{
+    margin: 1em 0;
+}
+
+.new-user #new-link{
+    color: var(--primary-light)
+}
+
+
+
+/* reg */
+.padb{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
