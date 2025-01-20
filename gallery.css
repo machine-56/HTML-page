@@ -6,6 +6,7 @@
     width: 20em;
     height: 19em;
     margin: 10px 5px;
+    justify-content: center;
     /* padding: 1em; */
     object-fit: cover;
     border: 5px;
